@@ -6,6 +6,7 @@
     height: 272px
     display: flex
     align-items: center
+    z-index: 2
 
 .footer__inner 
     display: flex
@@ -14,9 +15,6 @@
 .footer__logo 
     img
         height: 33px
-
-
-
 
 .footer__ul-item 
     margin-bottom: 15px
@@ -29,7 +27,14 @@
     transition: color .1s linear
     &:hover 
         color: #D4C17F
-
+.footer__ul-li
+    font-family: 'Raleway', sans-serif
+    font-size: 14px
+    color: #ffffff
+    transition: color .1s linear
+    margin-bottom: 18px
+    cursor: default
+    
 .footer__ul-link-email 
     color: #D4C17F
     font-weight: 700

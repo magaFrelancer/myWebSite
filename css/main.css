@@ -215,7 +215,7 @@ ul {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   background-color: #2D343C;
   width: 100%;
@@ -321,5 +321,9 @@ ul {
 
 .slider__imgs img.active {
   opacity: 1;
+}
+
+.position {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
